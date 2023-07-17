@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FTP-App.props" />
+</Project>

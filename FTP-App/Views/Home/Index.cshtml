@@ -1,0 +1,11 @@
+﻿<div class="container">
+    <h1>Subir archivo</h1>
+    <hr/>
+    <form method="post" asp-action="OnPostUploadAsync" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="formFile" class="form-label">Default file input example</label>
+            <input class="form-control" type="file" name="postedFile">
+        </div>
+        <button class="btn btn-outline-success" type="submit">Subir</button>
+    </form>
+</div>
